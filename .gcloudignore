@@ -1,0 +1,17 @@
+node_modules/
+public/
+.vsvode/
+.git/
+src/
+todo.md
+.browserslistrc
+.gitignore
+LICENSE
+package-lock.json
+package.json
+postcss.config.js
+README.md
+todo.md
+tsconfig.json
+tslint.json
+vue.config.js

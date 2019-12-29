@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "curly": true,
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "object-literal-sort-keys": false,
+    "no-var-requires": false,
+    "object-literal-shorthand": false,
+    "member-ordering": [
+      false
+    ],
+    "no-string-literal": false,
+    "interface-over-type-literal": false,
+    "no-console": [
+      false
+    ],
+    "no-reference": false,
+    "max-classes-per-file": [
+      false,
+      1
+    ],
+    "prefer-conditional-expression": false,
+    "no-bitwise": false,
+    "one-line": false,
+    "no-consecutive-blank-lines": false,
+    "interface-name": false
+  }
+}
